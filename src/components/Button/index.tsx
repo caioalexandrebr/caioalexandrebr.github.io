@@ -1,3 +1,3 @@
-import { Button } from './styles'
+import { Button } from './styles';
 
-export default Button
+export default Button;

@@ -3,12 +3,12 @@
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
   "eslint.alwaysShowStatus": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "search.exclude": {
     "**/.next": true,
     "**/coverage": true
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
-  "eslint.packageManager": "yarn",
+  }
 }
