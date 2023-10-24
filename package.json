@@ -6,13 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "commit": "git-cz",
     "lint": "next lint",
-    "commit": "git-cz"
+    "format": "prettier --check .",
+    "format:fix": "prettier --write --list-different ."
   },
   "dependencies": {
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint-config-prettier": "^9.0.0",
     "next": "13.5.6",
+    "prettier": "^3.0.3",
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.1.0"

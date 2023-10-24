@@ -1,7 +1,5 @@
-import Button from '@/components/Button'
+import Button from '@/components/Button';
 
 export default function Home() {
-  return (
-    <Button>hello world!</Button>
-  )
+  return <Button>hello world!</Button>;
 }
