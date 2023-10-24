@@ -1,5 +1,7 @@
+import Button from '@/components/Button'
+
 export default function Home() {
   return (
-    <button>hello world!</button>
+    <Button>hello world!</Button>
   )
 }
